@@ -1,0 +1,18 @@
+.row-data {
+    overflow-x: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.child {
+    min-width: 265px;
+    transition: all .2s ease-in-out;
+}
+.child:hover {
+    transform: scale(1.1);
+}
+
+.row-data::-webkit-scrollbar {
+    width: "0";
+    display: none;
+}
